@@ -1,0 +1,86 @@
+#charset "UTF-8"
+@font-face {
+    font-family:"android" ;
+    src: url("./fontes/idroid.otf") format("opentype");
+}
+
+body{
+    background-color: aquamarine;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+
+}
+.cabeçalho >h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 10px;
+padding: 10px;
+
+}
+ 
+ .cabeçalho{
+
+    background-image: linear-gradient(to right, rgb(1, 46, 1), rgb(106, 255, 106));
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ }
+ .links > a {
+     color: white;
+     text-align: left,end;
+     padding: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: rgb(4, 151, 4);
+     text-decoration: none;
+ }
+.links > a:hover{
+
+    background-color: black;
+    color: red;
+    transition-duration: 2s;
+}
+ .principal{
+     background-color: white;
+     padding: 30px;
+     
+     }
+
+     h1{
+         font-family: 'android';
+         font-weight: bolder;
+     }
+     h2 {
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+
+     h3{
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     .destaque{
+         background-color: rgb(17, 133, 17);
+         padding: 20px;
+         color: white;
+
+     }
+
+     .lista{
+         background-color: aquamarine;
+
+
+     }
+     .rodape{
+         color: white;
+         background-color: rgba(0, 116, 0, 0.774);
+         padding-top: 5px;
+         text-align: justify;
+     }
+     .div.video > iframe {
+        background-color: black;
+
+     }
+
+     }
+ }
